@@ -3,13 +3,13 @@
 
 import java.util.*;
 public class Question1{ 
-	  public static void main (String[] args){
-		    int a,b,c,sum;
-      	Scanner s = new Scanner(System.in);
-      	a = s.nextInt();
-        b = s.nextInt();
-        c = s.nextInt();
-        sum = a+b+c;
-        System.out.println(sum);
-    }
+	public static void main (String[] args){
+		int a,b,c,sum;
+		Scanner s = new Scanner(System.in);
+		a = s.nextInt();
+		b = s.nextInt();
+		c = s.nextInt();
+		sum = a+b+c;
+		System.out.println(sum);
+	}
 }
